@@ -12,3 +12,13 @@ Q3: What happened to the stash list after pop?
 
 -->Answer
     the latest stash containing notes.txt was deleted and file was present on Working Directory.
+
+Q4: Why did you need git stash before switching to main?
+
+-->Answer
+    We need git stash before switching to main because switching branch with uncommited files may cause in delete of file.
+
+Q5: Show 1 screenshot of git stash list after pop. How many stashes remain?
+
+-->
+    After pop command only one stash left in stash.
