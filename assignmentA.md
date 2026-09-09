@@ -22,3 +22,8 @@ Q5: Show 1 screenshot of git stash list after pop. How many stashes remain?
 
 -->
     After pop command only one stash left in stash.
+
+Q6: Why is using -m "message" helpful?
+
+-->Answer
+    Using -m "message" while stashing files is very useful for understanding purpose when we need to bring stashed files back. If we don't use it the default git message will be given to stash which is same for all stashes between two commits.
