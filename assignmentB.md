@@ -2,7 +2,9 @@ Q1. What is git stash in simple words? When do we use it?
 
 -->Answer:
 
-    git stash is a git command which provides temporary storage for uncommited changes allowing us to switch branches and make changes on different files without risk of losing these uncommited files. We may later bring back files from stash stack(temporary storage).
+    git stash is a git command which provides temporary storage for uncommited changes allowing us to switch
+    branches and make changes on different files without risk of losing these uncommited files. We may later 
+    bring back files from stash stack(temporary storage).
 
 Q2. You have:
 
@@ -29,14 +31,18 @@ Q3. Explain the difference between:
 
 -->Answer:
 
-    git stash apply :- This brings file to working directory while keeping a copy in stash stack as well. Using  it we may paste same files at different stage or in different branches.
-    git stash pop :- It too brings file to working directory but also it removes it from stash stack. We may only use it once for a particular stash or file. It is recommended to us pop command carefully.
+    git stash apply :- This brings file to working directory while keeping a copy in stash stack as well.
+    Using  it we may paste same files at different stage or in different branches.
+    git stash pop :- It too brings file to working directory but also it removes it from stash stack. We
+    may only use it once for a particular stash or file. It is recommended to us pop command carefully.
 
 Q4. When would you prefer apply over pop? Give one small example.
 
 -->Answer:
 
-    You should prefer apply over pop when you just want to test your cade without removing it from stash stack. For example, you have fixed a bug on a bug/fix branch and you want to test it on main branch with mainstream code before merging your bug/fix branch then you should use apply.
+    You should prefer apply over pop when you just want to test your cade without removing it from stash 
+    stack. For example, you have fixed a bug on a bug/fix branch and you want to test it on main branch
+    with mainstream code before merging your bug/fix branch then you should use apply.
 
 Q5. What do these commands do?
 
@@ -46,7 +52,8 @@ Q5. What do these commands do?
 -->Answer:
 
     git stash drop :- This command is used when you want to delete a particular stash from stash stack.
-    git stash clear :- This command is used when you want to delete all stashes from stash stock and start over from beginning.
+    git stash clear :- This command is used when you want to delete all stashes from stash stock and start
+    over from beginning.
 
 Q6. You see this git stash list:
 
@@ -68,7 +75,9 @@ instead of just git stash?
 
 -->Answer:
 
-    Using -m "message" while stashing files is very useful for understanding purpose when we need to bring stashed files back. If we don't use it the default git message will be given to stash which is same for all stashes between two commits.
+    Using -m "message" while stashing files is very useful for understanding purpose when we need to bring
+    stashed files back. If we don't use it the default git message will be given to stash which is same 
+    for all stashes between two commits.
 
 Q8. Scenario:
 
